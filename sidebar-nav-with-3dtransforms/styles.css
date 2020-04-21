@@ -1,0 +1,220 @@
+/* Global settings */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Hamburger Menu  */
+
+.ham {
+    position: fixed;
+    top: 2rem;
+    right: 3rem;
+    padding: .5rem;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+/* For the bars and cross mark */
+
+.ham i{
+    font-size: 3rem;
+    background: linear-gradient(to right, #43cea2 0%, #185a9d 100%);
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* to keep the cross sign hidden */
+
+.fa-times {
+    display: none;
+}
+
+/* To create an overlay */
+
+header::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: translate(-100%, -100%);
+    opacity: 0;
+    z-index: 999;
+    transition: opacity .6s, transform .2s .6s;
+}
+
+/* Sidebar menu */
+
+.sidebar{
+    background-color: #0C1821;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.4rem;
+    z-index: 1000;
+
+    /* to hide the sidebar */
+    transform: translateX(-100%);
+    transition: transform .6s cubic-bezier(0.95, 0.95, 0.795, 0.035);
+
+
+}
+
+/* Editing the menu tabs */
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #43cea2 0%, #185a9d 100%);
+}
+
+.nav-link {
+    display: block;
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
+    line-height: 6.5rem;
+    letter-spacing: 3px;
+    transition: color .6s;
+
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.nav-link.current {
+    color: #ffffff;
+}
+
+.nav-link i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+/* Editing the Social Media Icons */
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.icon-link {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    display: flex;
+    transition: background-color .6s;
+}
+
+.icon-link:hover {
+    background-color: rgba(0, 0, 0, 3);
+}
+
+.icon-link i {
+    font-size: 2.5rem;
+    color: rgba(255, 255, 255, 0.4);
+    margin: auto;
+    transition: color 0.6s;
+}
+
+.icon-link i:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* For the main content */
+main{
+    perspective: 100rem;
+}
+
+.zoom-content{
+    transform-style: preserve-3d;
+    transition: transform .6s cubic-bezier(0.95, 0.95, 0.795, 0.035);
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: #1f253d;
+}
+
+/* Displaying the cross icon and hiding bars icon in hamburger menu */
+.active .fa-times {
+    display: block;
+}
+
+.active .fa-bars {
+    display: none;
+}
+
+/* When the hamburger icon is toggled */
+
+header.active::before {
+    transform: translate(0,0);
+    opacity: 1;
+    transition: opacity .6s;
+}
+
+.active .sidebar {
+    transform: translateX(0);
+}
+
+.active .zoom-content{
+    transform: translate3d(0, 0, -25rem);
+}
+
+/* Adjusting sidebar on smaller devices */
+
+@media screen and(max-width: 450px){
+    .nav-link{
+        line-height: 5rem;
+    }
+    .ham{
+        top: 1.5rem;
+        right: 1.5rem;
+    }
+}
+
+@media screen and(max-width: 450px){
+    .sidebar{
+        width: 5rem;
+    }
+    
+}
