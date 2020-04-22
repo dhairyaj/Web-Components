@@ -1,0 +1,25 @@
+.settinglogin {
+    padding-top: 3%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    margin-top: 30vh;
+    width: 40%;
+    padding-left: 4%;
+  }
+  
+  .settingregister {
+    padding-top: 3%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    margin-top: 20vh;
+    width: 40%;
+    padding-left: 4%;
+  }
+  
+  #iconpass:hover {
+    cursor: pointer;
+  }
