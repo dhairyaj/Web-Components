@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Compiled and minified jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <title>Welcome</title>
+</head>
+<body>
+    <!--For the preloader-->
+    <div class="loaderback">
+        <div class="loaderfront"></div>
+    </div>
+
+    <!--The content of the website starts here-->
+    <h1>Welcome to the pageloader example</h1>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis obcaecati iusto laudantium sequi accusantium necessitatibus ex repudiandae, quae ab. Dolores obcaecati vero aliquid deleniti ipsa molestias distinctio a laudantium ullam?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In quam aliquid nostrum nam aut omnis doloremque soluta magnam voluptatem! Doloremque dolor odio recusandae perspiciatis, soluta non iste necessitatibus ipsam voluptates!
+    </p>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit error autem aliquid maxime quae veniam eum id qui! Id deleniti, sed omnis est iusto facilis consequatur inventore ducimus nam atque!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni obcaecati ut, tempore aut excepturi quaerat perferendis blanditiis vitae dolor nostrum quos ipsam ducimus assumenda nihil eligendi architecto tenetur qui? Repudiandae!
+
+    </p>
+    
+    <!--Custom jQuery script to control the preloader to website transition effect-->
+    <script>
+        setTimeout(function(){
+            $('.loaderback').fadeToggle();
+        }, 3000); //3000 is the time in milliseconds, can be increased or decreased
+    </script>
+</body>
+</html>
