@@ -10,7 +10,7 @@ Developed using the following tech stack
 
 __*This side navbar has the features of sliding in and out with the hamburger toggle and the content zoom out feature.*__   
 
-## 1) Example 2   
+## 2) Example 2   
 
 #### This is a side navbar with small animations and occupiesvery less part of the page to highlight the content more.   
 Developed using the following tech stack
