@@ -8,6 +8,6 @@ Developed using the following tech stack
 
 ## 2) Example 2
 #### A simple pageloader with a circular rotation effect   
-Developed using the following tech stack
--CSS
--JavaScript
+Developed using the following tech stack   
+- CSS
+- JavaScript
