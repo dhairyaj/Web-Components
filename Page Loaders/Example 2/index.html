@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Preloader</title>
+</head>
+<body>
+    <div class="loader">
+        <div class="preload">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>    
+    <section>
+        After the preloader disappears, main website appears here.
+    </section>
+
+    <!--To make the preloader disappear once the whole content gets loaded-->
+    <script>
+        window.addEventListener('load', () => {
+            const loader = document.querySelector('.loader');
+            loader.classList.add('loader-finished');
+        });
+    </script>
+</body>
+</html>
