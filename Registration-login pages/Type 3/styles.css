@@ -1,0 +1,75 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font: 15px;
+}
+
+body {
+    background: linear-gradient(to right, #3a6186, #89253e);
+}
+
+form {
+    background:linear-gradient(to right, #bdc3c7, #2c3e50);
+    border-radius:6px;
+    padding:20px;
+    padding-top:30px;
+    width:300px;
+    margin:50px auto;
+    box-shadow:15px 15px 0px rgba(0,0,0,.1);
+  }
+
+  input {
+    width:100%;
+    background:#f5f5f5;
+    border:0;
+    padding:20px;
+    border-radius:6px;
+    margin-bottom:10px;
+    border:1px solid #eee;
+  }
+
+  .btn {
+    position:relative;
+    width:100%;
+    padding:20px;
+    border-radius:6px;
+    border:0;
+    background:#f26964;
+    font-size:1.2em;
+    color:#fff;
+    text-shadow:1px 1px 0px rgba(0,0,0,.1);
+    box-shadow:0px 3px 0px #c1524e;
+  }
+
+  h6 {
+    text-align:center;
+    padding:20px;
+    padding-top:35px;
+    color:#EEF0F2;
+    cursor:pointer;
+    font-size: 1rem;
+  }
+
+  .social {
+    display:none;
+  }
+
+  .fb {
+    margin-top:15px;
+    background:#3b5998;
+    box-shadow:0px 3px 0px #2c416e;
+  }
+  
+  .gmail {
+    background:#fafafa;
+    box-shadow:0px 3px 0px #96969B;
+    color: red;
+  }
+  
+  .linkedin {
+    margin-top:15px;
+    background:#0072b1;
+    box-shadow:0px 3px 0px #00285E;
+  }
