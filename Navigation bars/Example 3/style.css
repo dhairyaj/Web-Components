@@ -1,0 +1,92 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	font-size: 10px;
+	font-family: sans-serif;
+	background: #0D1F2D;
+}
+
+nav {
+	margin: 27px auto 0;
+	position: relative;
+	width: 550px;
+	height: 50px;
+	background-color: #34495e;
+	border-radius: 8px;
+	font-size: 0;
+}
+
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+    cursor: pointer;
+}
+
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+
+a:nth-child(1){
+    width: 110px;
+}
+a:nth-child(2){
+    width: 110px;
+}
+a:nth-child(3){
+    width: 110px;
+}
+a:nth-child(4){
+    width: 110px;
+}
+a:nth-child(5){
+    width: 110px;
+} 
+
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 110px;
+	left: 0;
+	background: linear-gradient(to right, #DA4453, #89216B);
+}
+
+nav .start-about, a:nth-child(2):hover~.animation {
+    width: 110px;
+    left: 110px;
+	background: linear-gradient(to right,#a8c0ff, #3f2b96);
+}
+
+nav .start-skills, a:nth-child(3):hover~.animation {
+    width: 110px;
+    left: 220px;
+	background: linear-gradient(to right,#40E0D0, #FF8C00, #FF0080);
+}
+
+
+nav .start-portfolio, a:nth-child(4):hover~.animation {
+    width: 110px;
+    left: 330px;
+	background: linear-gradient(to right,#108dc7, #ef8e38);
+}
+
+
+nav .start-contact, a:nth-child(5):hover~.animation {
+    width: 110px;
+    left: 440px;
+	background: linear-gradient(to right,#333333, #dd1818);
+}

@@ -19,3 +19,10 @@ Developed using the following tech stack
 - Bootstrap
 
 __*This code has bootstrap, fontawesome and jquery downlaoded. So, no CDNs are used.*__
+
+## 3) Example 3
+
+#### This is a navbar with hover effects.   
+Developed using the following tech stack   
+- HTML5
+- CSS3
