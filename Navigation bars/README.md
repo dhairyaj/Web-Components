@@ -17,8 +17,7 @@ Developed using the following tech stack
 - HTML5
 - CSS3
 - Bootstrap
-
-__*This code has bootstrap, fontawesome and jquery downlaoded. So, no CDNs are used.*__
+- jQuery
 
 ## 3) Example 3
 
