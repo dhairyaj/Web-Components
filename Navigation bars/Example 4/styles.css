@@ -1,0 +1,78 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+nav {
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+}
+
+nav h1, nav ul {
+    font-size: 1.5rem;
+    flex: 2;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h2 {
+    font-size: 4rem;
+    color: white;
+}
+
+.home {
+    background: linear-gradient(to right, #c31432, #240b36);
+}
+
+.about {
+    background: linear-gradient(to right, #0F2027, #203A43, #2C5364);
+}
+
+.portfolio {
+    background: linear-gradient(to right, #667db6, #0082c8, #2C5364, #667db6);
+}
+
+.contact {
+    background: linear-gradient(to right, #159957, #155799);
+}
+
+.bubble {
+    position: absolute;
+    z-index: -2;
+    background: linear-gradient(to right, #c31432, #240b36);
+    transform: scale(2);
+    transition: all 0.5s ease;
+    border-radius: 15px;
+}

@@ -25,3 +25,11 @@ Developed using the following tech stack
 Developed using the following tech stack   
 - HTML5
 - CSS3
+
+## 4) Example 4
+
+#### Navbar with tab scroll animations   
+Developed using the following tech stack    
+- HTML5
+- CSS3
+- Javascript
