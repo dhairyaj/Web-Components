@@ -33,3 +33,11 @@ Developed using the following tech stack
 - HTML5
 - CSS3
 - Javascript
+
+## 5) Example 5
+
+#### Navbar with liquid flow animation    
+Developed using the following tech stack   
+- HTML5
+- CSS3
+- Javascript
