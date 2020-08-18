@@ -1,0 +1,77 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+    /* font-family: 'Alex Brush', cursive; */
+    font-family: 'Arizonia', cursive;
+}
+
+h1 {
+    color: #444;
+    font-size: 12em;
+    letter-spacing: 45px;
+}
+
+h1 span {
+    display: table-cell;
+    animation: glowing 4.5s linear infinite;
+}
+
+h1 span:nth-child(1){
+    animation-delay: 0s;
+}
+h1 span:nth-child(2){
+    animation-delay: .5s;
+}
+h1 span:nth-child(3){
+    animation-delay: 1s;
+}
+h1 span:nth-child(4){
+    animation-delay: 1.5s;
+}
+h1 span:nth-child(5){
+    animation-delay: 2s;
+}
+h1 span:nth-child(6){
+    animation-delay: 2.5s;
+}
+h1 span:nth-child(7){
+    animation-delay: 3s;
+}
+h1 span:nth-child(8){
+    animation-delay: 3.5s;
+}
+h1 span:nth-child(9){
+    animation-delay: 4s;
+}
+
+@keyframes glowing {
+    0%, 100% {
+        color: #fff;
+        filter: blur(2px);
+        text-shadow: 0 0 10px #00C2D1,
+                     0 0 20px #00C2D1,
+                     0 0 40px #00C2D1,
+                     0 0 80px #00C2D1,
+                     0 0 120px #00C2D1,
+                     0 0 16px #00C2D1,
+                     0 0 200px #00C2D1,
+                     0 0 240px #00C2D1,
+                     0 0 300px #00C2D1;
+
+    }
+
+    5%, 95% {
+        color: #444;
+        filter: blur(0px);
+        text-shadow: none;
+    }
+}
