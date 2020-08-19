@@ -41,3 +41,12 @@ Developed using the following tech stack
 - HTML5
 - CSS3
 - Javascript
+
+## 5) Example 6
+
+#### Side Dot Navigation. This navigation style can be used for those websites which have multiple pages but no scroll ability in each page.   
+Developed using the following tech stack   
+- HTML5
+- CSS3
+- Javascript
+- GSAP (JS library for animations)

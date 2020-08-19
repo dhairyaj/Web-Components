@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    color: white;
+    background: radial-gradient(rgba(43,55,96,1), rgba(11,16,35,1));
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details h1 {
+    font-size: 3.5rem;
+}
+
+.about, .projects, .contact {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.pages {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.pages div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pages h3 {
+    font-size: 24px;
+    padding: 30px;
+}
+
+.pages svg {
+    cursor: pointer;
+    opacity: 0.4;
+    transform: scale(1.5);
+}
+
+.pages svg:hover {
+    animation: dot 0.5s ease-in-out infinite alternate;
+}
+
+.pages svg.active {
+    opacity: 1;
+}
+
+@keyframes dot {
+    0% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(3);
+    }
+}

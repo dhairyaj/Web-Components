@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side Dot Navigation</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <header>
+
+            <main>
+
+                <section class="page home">
+                    <div class="details">
+                        <h1 class="text">HOME</h1>
+                    </div>
+                </section>
+    
+                <section class="page about">
+                    <div class="details">
+                        <h1 class="text">ABOUT</h1>
+                    </div>
+                </section>
+    
+                <section class="page projects">
+                    <div class="details">
+                        <h1 class="text">PROJECTS</h1>
+                    </div>
+                </section>
+                
+                <section class="page contact">
+                    <div class="details">
+                        <h1 class="text">CONTACT</h1>
+                    </div>
+                </section>
+
+                <div class="pages">
+
+                    <div class="page-1">
+                        <h3>01</h3>
+                        <svg class="slide active" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="6" cy="6" r="6" fill="white" />
+                        </svg>
+                    </div>
+
+                    <div class="page-2">
+                        <h3>02</h3>
+                        <svg class="slide" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="6" cy="6" r="6" fill="white" />
+                        </svg>
+                    </div>
+
+                    <div class="page-3">
+                        <h3>03</h3>
+                        <svg class="slide" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="6" cy="6" r="6" fill="white" />
+                        </svg>
+                    </div>
+
+                    <div class="page-4">
+                        <h3>04</h3>
+                        <svg class="slide" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="6" cy="6" r="6" fill="white" />
+                        </svg>
+                    </div>
+
+                </div>
+    
+            </main>
+
+        </header>
+
+    </div>
+
+    <!-- GSAP version 3 cdn doesnot require separate cdns for Timeline and TweenMax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+
+    <!-- GSAP version < 3 require separate CDNs for Timeline and TweenMax -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw==" crossorigin="anonymous"></script> -->
+    <script src="./app.js"></script>
+</body>
+</html>
