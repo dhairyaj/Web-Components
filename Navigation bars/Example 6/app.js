@@ -29,8 +29,8 @@ function init() {
         const nextPage = pages[pageNumber];
         const currentPage = pages[current];
 
-        const nextText = nextPage.querySelector(".text");
-        const currentText = currentPage.querySelector(".text");
+        // const nextText = nextPage.querySelector(".text");
+        // const currentText = currentPage.querySelector(".text");
         const container = document.querySelector(".container");
 
         // const tl = new TimelineMax();
