@@ -19,4 +19,10 @@ Developed using the following tech stack
 #### Preloader with letter effect and glitchy feel    
 Developed using the following tech stack   
 - CSS
-- jQuery
+- jQuery   
+
+## 4) Example 4    
+
+#### Rotating preloader with constant color change    
+Developed using the following tech stack   
+- CSS
