@@ -25,4 +25,10 @@ Developed using the following tech stack
 
 #### Rotating preloader with constant color change    
 Developed using the following tech stack   
+- CSS   
+
+## 5) Example 5    
+
+#### Simple Multi Circle Pageloader       
+Developed using the following tech stack   
 - CSS
