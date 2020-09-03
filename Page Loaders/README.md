@@ -27,7 +27,7 @@ Developed using the following tech stack
 Developed using the following tech stack   
 - CSS   
 
-## 5) Example 5    
+## 5) Example 6    
 
 #### Simple Multi Circle Pageloader       
 Developed using the following tech stack   
