@@ -27,7 +27,14 @@ Developed using the following tech stack
 Developed using the following tech stack   
 - CSS   
 
-## 5) Example 6    
+## 5) Example 5   
+
+#### A simple progressbar pageloader   
+Developed using the following tech stack   
+- CSS
+- JavaScript
+
+## 6) Example 6    
 
 #### Simple Multi Circle Pageloader       
 Developed using the following tech stack   
