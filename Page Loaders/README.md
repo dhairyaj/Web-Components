@@ -38,4 +38,10 @@ Developed using the following tech stack
 
 #### Simple Multi Circle Pageloader       
 Developed using the following tech stack   
+- CSS   
+
+## 7) Example 7    
+
+#### Simple Box Flipping Pageloader       
+Developed using the following tech stack   
 - CSS
