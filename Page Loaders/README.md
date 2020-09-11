@@ -44,4 +44,10 @@ Developed using the following tech stack
 
 #### Simple Box Flipping Pageloader       
 Developed using the following tech stack   
+- CSS   
+
+## 8) Example 8    
+
+#### Simple line height change Pageloader       
+Developed using the following tech stack   
 - CSS
