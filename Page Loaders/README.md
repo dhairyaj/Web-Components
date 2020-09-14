@@ -50,4 +50,10 @@ Developed using the following tech stack
 
 #### Simple line height change Pageloader       
 Developed using the following tech stack   
+- CSS    
+
+## 9) Example 9    
+
+#### Rotating box and ball Pageloader       
+Developed using the following tech stack   
 - CSS
