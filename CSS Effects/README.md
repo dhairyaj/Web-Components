@@ -12,4 +12,12 @@ Developed using the following tech stack
 #### An animated gradient background with sample text.
 Developed using the following tech stack
 - HTML5
-- CSS3
+- CSS3   
+
+## 3) Animated Background   
+
+#### An animated background with dynamic square popups.
+Developed using the following tech stack
+- HTML5
+- CSS3  
+- JavaScript
