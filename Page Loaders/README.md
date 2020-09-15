@@ -56,4 +56,10 @@ Developed using the following tech stack
 
 #### Rotating box and ball Pageloader       
 Developed using the following tech stack   
+- CSS   
+
+## 10) Example 10    
+
+#### Bouncing ball Pageloader       
+Developed using the following tech stack   
 - CSS
